@@ -28,7 +28,7 @@ def get_data_from_sql():
 def wrangle_zillow():
     df = get_data_from_sql()
     df = df.drop(columns=['fireplaceflag','yardbuildingsqft26','yardbuildingsqft17','typeconstructiontypeid','threequarterbathnbr','storytypeid','pooltypeid7','pooltypeid2','pooltypeid10','poolsizesum','poolcnt','heatingorsystemtypeid','hashottuborspa','fireplacecnt','finishedsquarefeet6','finishedsquarefeet50','finishedsquarefeet15','finishedsquarefeet13','finishedfloor1squarefeet','calculatedbathnbr','buildingqualitytypeid', 'airconditioningtypeid', 'buildingclasstypeid', 'basementsqft', 'decktypeid', 'architecturalstyletypeid'])
-    df = df.drop(columns=['lotsizesquarefeet','censustractandblock','fullbathcnt','finishedsquarefeet12','propertycountylandusecode','propertylandusetypeid','parcelid', 'fips', 'garagecarcnt', 'garagetotalsqft', 'latitude', 'longitude', 'unitcnt', 'numberofstories', 'taxdelinquencyflag','taxdelinquencyyear' ])
-    df = df.drop(columns=["propertyzoningdesc", 'regionidcity', 'regionidneighborhood', 'yearbuilt'])
+    df = df.drop(columns=['lotsizesquarefeet','censustractandblock','fullbathcnt','finishedsquarefeet12','propertycountylandusecode','propertylandusetypeid','parcelid', 'garagecarcnt', 'garagetotalsqft', 'latitude', 'longitude', 'unitcnt', 'numberofstories', 'taxdelinquencyflag','taxdelinquencyyear' ])
+    df = df.drop(columns=["propertyzoningdesc", 'regionidcity', 'regionidneighborhood', 'yearbuilt', 'regionidzip'])
     df.dropna(axis=0, inplace=True)
     return df

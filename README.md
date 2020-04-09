@@ -11,14 +11,14 @@
 *bathroomcnt* = Number of restrooms on property, including half-baths and quarter-baths                     
 *bedroomcnt* = Number of bedrooms in property                      
 *calculatedfinishedsquarefeet* = Square footage of the property
-*rawcensustractandblock* = census tracts and their unique block number *regionidcounty* = 
-regionidzip                     20765 non-null float64
-roomcnt                         20765 non-null float64
-structuretaxvaluedollarcnt      20765 non-null float64
-taxvaluedollarcnt               20765 non-null float64
-assessmentyear                  20765 non-null float64
-landtaxvaluedollarcnt           20765 non-null float64
-taxamount                       20765 non-null float64
-id                              20765 non-null int64
-logerror                        20765 non-null float64
-transactiondate                 20765 non-null object
+*rawcensustractandblock* = census tracts and their unique block number *regionidcounty* = a 4-digit county code.
+*regionidzip* = zip code where property is located
+*roomcnt* = Number of rooms in home
+*structuretaxvaluedollarcnt* = property value
+*taxvaluedollarcnt* = 
+*assessmentyear* = the year the home was assessed by an appraisal officier
+*landtaxvaluedollarcnt* =
+*taxamount* =
+*id*
+*logerror* =
+*transactiondate* = The date the last transaction was made regarding the house.
