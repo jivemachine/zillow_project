@@ -1,0 +1,31 @@
+Great to see:
+- Good job sticking to the specification
+- It was great to see everyone focusing on the MVP first.
+- Liked how many folks answered “Is a model more valuable than the baseline”
+- Amazing time management skills, especially w/ everything going on right now
+- Slides were easy to follow; designed well and had lots of details
+- Glad to hear presenters calling out/raised awareness to errors so there wouldn’t be confusion. Good to see no glossing over.
+- Glad to see agenda slides that share your organization and what to expect
+- Awesome to see separate models by location or specific subgroups
+- Good job making large visualization that take up the entire screen so you
+- Good to see annotations on top of the visuals, to call out the takeaways. It’s totally OK to use your presentation tool to add the arrows/annotations
+- “These are clearly not beginner or intro level”
+Be sure to:
+- Lead with your conclusion. Put your conclusions first, then explain the detail, and review conclusions at the end. It makes a sandwich!
+- Title your charts
+- Label your axes
+- Always add an intro slide with your name and what the project is doing. It answers the question “Why are we here” to the audience
+- Make both a title slide and an intro slide. You’re hyperaware of what you’re working on, and your audience might not be, so “onboard” them to your project
+- Make your numbers easy to consume. You don’t need cents no house value or RMSE of house value. Round to the closest thousand
+- Turn tax rate into a percent.
+- Explain where your data come from. Where did the extra data (like county/state) come from?
+- Give a shape of the data. How many rows/columns?
+- Summarize your data prep steps. What did you do with nulls? How did you isolate outliers worth dropping?
+- What are the coefficients of your model? What do those really mean? “For every $3 in X, we get $1 in Y”
+- Share a roadmap at the beginning of the presentation. Maps allow people to follow you better. They’ll know where you’re going.
+- Executive summary slide (takeaways) at the beginning and end.
+    - Think of it as, if someone (e.g. an exec) only had time to read one thing, what would you include on it?
+    - Basically your summary / conclusion slide, but at the start of the presentation, as opposed to the end.
+- Pay attention to your body language :)
+Recommendations:
+- It’s OK to drop outliers if those observations are not possible or realistic. For example, 0 bed, 0 bath are worth dropping and 20 bedrooms w/ 0 bathrooms is worth dropping.
