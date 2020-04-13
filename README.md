@@ -20,8 +20,8 @@
 
 ### Deliverables
 
-Link for google presentation [HERE](https://docs.google.com/presentation/d/1Gt7IMrhgTrMt7yxNsx0tpbm9yQ2UV5YE6aisZ81BCXA/edit?usp=sharing).
-GitHub repository above
+- Link for google presentation [HERE](https://docs.google.com/presentation/d/1Gt7IMrhgTrMt7yxNsx0tpbm9yQ2UV5YE6aisZ81BCXA/edit?usp=sharing).
+- GitHub repository above
 
 ### To Reproduce My Results
 - env.py file is required with log-in credentials to the database used
