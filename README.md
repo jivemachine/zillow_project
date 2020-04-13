@@ -7,11 +7,15 @@
 - $H_a$: Using recursive feature elimination from SK.learn will proove a different variation of features that will predict features mentioned above but not discluding other possible features included in the dataset
 *************************************************************************
 ### Data Dictionary
---- *id* = primary-key / index
---- *bathroomcnt* = Number of restrooms on property, including half-baths and quarter-baths                     
---- *bedroomcnt* = Number of bedrooms in property                      
---- *calculatedfinishedsquarefeet* = Square footage of the property
---- *roomcnt* = Number of rooms in home
---- *structuretaxvaluedollarcnt* = property value
---- *taxamount* =
---- *transactiondate* = The date the last transaction was made regarding the house.
+
+
+| Unit-Title | Description |
+|--- |---|
+|id | primary-key / index|
+| bathroomcnt |  Number of restrooms in unit (including half-baths and quarter-baths) |
+| bedroomcnt | Number of bedrooms in unit |
+| calculatedfinishedsquarefeet | Square footage of the property |
+|roomcnt | Number of rooms in unit |
+|structuretaxvaluedollarcnt | property value |
+| taxamount | The amount the homeowner was taxed |
+| transactiondate | The date of the last transaction |
