@@ -10,32 +10,32 @@ def get_db_url(db_name):
 
 # function that passes my query and my url to return df
 
-#def get_data_from_sql():
-#    query = '''
-#    SELECT * 
-#    FROM properties_2017
-#    LEFT JOIN predictions_2017 USING(parcelid)
-#    WHERE propertylandusetypeid NOT IN (246, 247, 248, 46, 47, 265, 267, 290, 291)
-#    AND transactiondate BETWEEN "2017-05-01" AND "2017-06-31"''
-#    AND bathroomcnt >= 1
-#    AND bedroomcnt >= 1
-#    '''
-#    df = pd.read_sql(query, get_db_url('zillow'))
-#    return df
-
 def get_data_from_sql():
     query = '''
     SELECT * 
     FROM properties_2017
     LEFT JOIN predictions_2017 USING(parcelid)
-    WHERE propertylandusetypeid IN (261)
-    AND transactiondate BETWEEN "2017-05-01" AND "2017-06-31"
+    WHERE propertylandusetypeid NOT IN (246, 247, 248, 46, 47, 265, 267, 290, 291)
+    AND transactiondate BETWEEN "2017-05-01" AND "2017-06-31"''
     AND bathroomcnt >= 1
-    AND bedroomcnt >= 1;
+    AND bedroomcnt >= 1
     '''
     df = pd.read_sql(query, get_db_url('zillow'))
     return df
 
+#def get_data_from_sql():
+#    query = '''
+#    SELECT * 
+#    FROM properties_2017
+#    LEFT JOIN predictions_2017 USING(parcelid)
+#    WHERE propertylandusetypeid IN (261)
+#    AND transactiondate BETWEEN "2017-05-01" AND "2017-06-31"
+#    AND bathroomcnt >= 1
+#    AND bedroomcnt >= 1;
+#    '''
+#    df = pd.read_sql(query, get_db_url('zillow'))
+#    return df
+#
 
 # function that rules them all by acquiring and prepping my df for exploration or modeling
 
